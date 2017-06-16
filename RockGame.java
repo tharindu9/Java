@@ -22,7 +22,7 @@ public class RockGama {
          
          
      }
-     else{
+     else{//use if else and logical oparetors
          if(user==3 && com ==1){//check user and computer
              System.out.println("You are lost\n sissor will be broken by rock");
          }
@@ -35,7 +35,7 @@ public class RockGama {
          
              
          }
-         switch(user){
+         switch(user){//switch case
              case 2 :
                  if(com==1){//check user and computer
                      System.out.println("You win \n rock can be cover by paper");
